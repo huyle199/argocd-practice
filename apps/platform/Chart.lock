@@ -1,0 +1,9 @@
+dependencies:
+- name: nginx
+  repository: https://charts.bitnami.com/bitnami
+  version: 21.0.6
+- name: redis
+  repository: https://charts.bitnami.com/bitnami
+  version: 17.11.4
+digest: sha256:bcbacfbf835e1b49c6a92db48bd85fb2b592f2f0b03951c42c1ce8fcf3e5a863
+generated: "2025-07-14T20:05:09.7520977-05:00"

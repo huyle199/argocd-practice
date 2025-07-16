@@ -1,0 +1,10 @@
+apiVersion: v2
+name: platform
+version: 0.1.0
+dependencies:
+  - name: nginx
+    version: 21.0.6
+    repository: https://charts.bitnami.com/bitnami
+  - name: redis
+    version: 17.11.4
+    repository: https://charts.bitnami.com/bitnami
