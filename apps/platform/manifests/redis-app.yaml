@@ -1,17 +1,18 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: platform
+  name: redis
   namespace: argocd
 spec:
   project: default
   source:
     repoURL: https://github.com/huyle199/argocd-practice.git
-    path: apps/platform
+    chart: redis
+    path: apps/platform/charts
     targetRevision: HEAD
     helm:
       valueFiles:
-        - values.yaml
+        - ../values.yaml
   destination:
     server: https://kubernetes.default.svc
     namespace: argocd

@@ -8,5 +8,4 @@ redis:
   auth:
     enabled: false
   fullnameOverride: my-redis
-    repository: https://charts.bitnami.com/bitnami
-    version: 17.11.4
+  # Remove repository and version from here
